@@ -1,0 +1,26 @@
+.results {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.results h2 {
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+.results img {
+    max-width: 300px;
+    height: auto;
+    margin-bottom: 1em;
+}
+
+
+.event-list div {
+    margin: 10px 0;
+}
+
+.artist-info img{
+   width: 300px;
+   height: auto;
+}
