@@ -1,46 +1,53 @@
-# Getting Started with Create React App
+# Who's In Town
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a web application that allows users to search for artists and view information about their upcoming events. Users can also mark events as favorites and view their favorite events separately.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- Search for artists and view artist information
+- View upcoming events for an artist
+- Mark events as favorites
+- View favorite events separately
+- Persistent storage of favorite events using local storage
 
-### `npm start`
+## Technologies Used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- React: Front-end JavaScript library for building user interfaces
+- React Router: Library for handling client-side routing in React applications
+- Axios: Promise-based HTTP client for making API requests
+- Material-UI: UI component library for React applications
+- TypeScript: Typed superset of JavaScript for improved developer productivity
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Setup and Installation
 
-### `npm test`
+1.  Clone the repository.
+2.  Navigate to the project directory.
+3.  Install dependencies by running `npm install`.
+4.  Start the development server by running `npm start`.
+5.  Open the app in your browser at `http://localhost:3000`.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Usage
 
-### `npm run build`
+1.  Enter the name of an artist in the search bar and click "Search".
+2.  View the artist's information and a list of upcoming events.
+3.  Click on an event to view more details.
+4.  Click the "Add to favorites" button to mark an event as a favorite.
+5.  Navigate to the "Favorites" page to view all your favorite events.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Contributing
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Contributions are welcome! If you'd like to contribute to this project, please follow these steps:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1.  Fork the repository.
+2.  Create a new branch for your feature or bug fix.
+3.  Make your changes and commit them with descriptive commit messages.
+4.  Push your changes to your forked repository.
+5.  Submit a pull request to the main repository.
 
-### `npm run eject`
+## Contact
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+If you have any questions or suggestions, feel free to reach out to the project maintainer at [gramamarcel01@gmail.com].
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Feel free to customize the README file based on your specific project requirements and additional information you want to provide.
